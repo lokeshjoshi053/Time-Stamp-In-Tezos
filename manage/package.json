@@ -1,0 +1,25 @@
+{
+  "name": "tzstamp-manage",
+  "version": "0.3.4",
+  "description": "Manages instances of the tzstamp tezos smart contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "FAUCET_PATH=faucet.json node test/test.js"
+  },
+  "author": "John David Pressman",
+  "license": "MIT",
+  "dependencies": {
+    "@taquito/michel-codec": "^15.0.0",
+    "@taquito/signer": "^15.0.0",
+    "@taquito/taquito": "^15.0.0",
+    "@taquito/tzip16": "^15.0.1",
+    "@tzstamp/helpers": "^0.3.4",
+    "dotenv": "^8.2.0",
+    "dotenv-defaults": "^2.0.1",
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  }
+}

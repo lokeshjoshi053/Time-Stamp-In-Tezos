@@ -1,0 +1,33 @@
+{
+  "name": "@tzstamp/tezos-merkle",
+  "version": "0.3.4",
+  "description": "Tezos-style Merkle trees",
+  "main": "dist/mod.js",
+  "types": "dist/mod.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "test": "deno test --unstable *.test.ts",
+    "build": "deno run --unstable --allow-read=. --allow-write=dist _build.ts"
+  },
+  "contributors": [
+    "John David Pressman <jd@jdpressman.com> (https://jdpressman.com)",
+    "Benjamin Herman <benjamin@metanomial.com> (https://metanomial.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marigold-dev/tzstamp.git",
+    "directory": "tezos-merkle"
+  },
+  "homepage": "https://github.com/marigold-dev/tzstamp/tree/main/tezos-merkle#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@tzstamp/helpers": "^0.3.4",
+    "@tzstamp/proof": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
