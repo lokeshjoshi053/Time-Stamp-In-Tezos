@@ -16,7 +16,7 @@
     "@tzstamp/helpers": "^0.3.4",
     "dotenv": "^8.2.0",
     "dotenv-defaults": "^2.0.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
